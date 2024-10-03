@@ -6,8 +6,19 @@ about:
   links:
     - icon: github
       text: Github
-      href: https://github.com/etc5523-2022
-
+      href: https://github.com/Saumya6915
+    - icon: Email 
+      text: Email 
+      href: mailto:scha0310@student.monash.edu 
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/saumyachaudhary15/  
+      
 ---
 
-This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
+Hello! I’m Saumya Chaudhary, a passionate Master's student in Business Analytics at Monash University, Melbourne. With a Bachelor’s in Business Administration and hands-on experience as a Sales Associate and Corporate Advisor, I’ve developed a strong foundation in understanding market dynamics and customer insights.
+
+I’m eager to apply my analytical skills to solve complex business challenges and drive strategic outcomes. My journey through the world of data analytics excites me, and I look forward to exploring innovative solutions that can shape business strategies.
+
+Outside of academia, I enjoy hiking, binge-watching, and keeping up with the latest technological advancements. I’d love to connect with like-minded individuals or collaborate on projects that could benefit from a data-focused perspective!
+

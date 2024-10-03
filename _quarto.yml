@@ -2,15 +2,16 @@ project:
   type: website
 
 website:
-  title: "blog-template"
-  navbar:
+  title: "The Data Quest: Saumya’s Path to Discovery"
+
+navbar:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/etc5523-2022
+        href: https://github.com/Saumya6915
 format:
   html:
-    theme: cosmo
+    theme: website
     css: styles.css
 
 
