@@ -25,7 +25,7 @@ library(readxl)
 property_data <- read_excel("Houses-by-suburb-2013-2023.xlsx")
 ```
 
-## A review 
+# <u>A Review</u>
 
 At some point, nearly everyone living in Melbourne has found themselves caught in the search for a place to buy, navigating the complexities of the city's housing market. But can you imagine what property prices looked like a decade ago? With Melbourne's real estate landscape evolving so dramatically, many are left wondering: which suburbs offer the best opportunities for investment, lifestyle, and long-term growth?
 
@@ -36,7 +36,7 @@ In this blog post, we'll take a deep dive into Melbourne's housing market dynami
 ![Melbourne Housing Market](thumbnail.jpg)
 
 
-## Data Overview 
+# Data Overview 
 
 The data for this analysis was sourced from the [Victoria State Government website](https://www.land.vic.gov.au/valuations/resources-and-reports/property-sales-statistics) , covering the period from 2013 to 2023 @tbl-data-dictionary.
 
@@ -64,7 +64,7 @@ kable(data_desc, caption = "Variables in the dataset") %>%
   kable_styling() 
 ```
 
-### Data Cleaning Steps
+## Data Cleaning Steps
 
 To prepare the data for analysis, the following cleaning step was implemented:
 
@@ -96,14 +96,14 @@ property_growth <- property_data %>%
 ```
 
 
-## Understanding the Dynamics
+# Understanding the Dynamics
 
 Over the past decade, Melbourne’s property market has experienced significant fluctuations, with some suburbs witnessing rapid growth while others have remained more stable. Understanding these trends is crucial for investors, homeowners, and policymakers alike.
 
 By analyzing the growth of the top 10 suburbs through various plots, we can uncover which areas have experienced the most consistent growth and where opportunities may lie for future investment. Whether you're a seasoned investor, looking to buy a house or simply curious about the market, this analysis will offer valuable insights into Melbourne's ever-changing property landscape.
 
 
-### Analysis  
+## Analysis  
 
 In this section, we focus on identifying the top-performing suburbs in Melbourne's property market over the last decade, highlighting both the percentage growth in house prices and the volatility within the market.
 
@@ -220,7 +220,7 @@ summary_data %>%
 ```
 
 
-### Conclusion
+## Conclusion
 
 The suburbs analyzed displayed a broad spectrum of both price volatility and percentage growth over the past decade. Suburbs like Cardigan and Marysville offer promising long-term investment potential, driven by their exceptional growth rates.For an overview of all the 10 suburbs, refer to @tbl-conclude. However, their volatility must be carefully considered, as it could signal fluctuations in future market conditions.
 
