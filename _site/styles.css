@@ -1,29 +1,31 @@
 /* CSS styles */
 .navbar-dark, .quarto-title-banner {
-  background-color: #023e60; /* Navbar background color */
-  padding: 10px; /* Add padding for spacing */
+  background-color: #023e60; 
+  padding: 15px; 
 }
 
 .navbar-dark a {
-  color: white; 
   text-decoration: none; 
+  font-size: 10px;
 }
 
 nav {
-  background-color: #9dabc9; /* Change the navbar color */
+  background-color: #023e60; /* Change the navbar color */
   padding: 5px;
 }
 
 
 h1 {
   color: #023e60;
-  font-size: 2em; 
+  margin-left: 10px;
+  font-size: 1.5em; 
+  font-family: Arial, sans-serif;
 }
 
 h2 {
   color: #1b4774; 
   margin-left: 10px;
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-family: Arial, sans-serif;
 }
 
@@ -32,7 +34,7 @@ h3 {
   margin-left: 10px;
   font-size: 1em;
   font-family: Arial, sans-serif;
-
+}
     
 p {
   margin: 10px 20px; 

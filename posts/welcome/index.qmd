@@ -36,7 +36,7 @@ In this blog post, we'll take a deep dive into Melbourne's housing market dynami
 ![Melbourne Housing Market](thumbnail.jpg)
 
 
-# Data Overview 
+# <u>Data Overview</u>
 
 The data for this analysis was sourced from the [Victoria State Government website](https://www.land.vic.gov.au/valuations/resources-and-reports/property-sales-statistics) , covering the period from 2013 to 2023 @tbl-data-dictionary.
 
@@ -96,7 +96,7 @@ property_growth <- property_data %>%
 ```
 
 
-# Understanding the Dynamics
+# <u>Understanding the Dynamics</u>
 
 Over the past decade, Melbourne’s property market has experienced significant fluctuations, with some suburbs witnessing rapid growth while others have remained more stable. Understanding these trends is crucial for investors, homeowners, and policymakers alike.
 
@@ -108,6 +108,7 @@ By analyzing the growth of the top 10 suburbs through various plots, we can unco
 In this section, we focus on identifying the top-performing suburbs in Melbourne's property market over the last decade, highlighting both the percentage growth in house prices and the volatility within the market.
 
 The bar chart below presents the suburbs with the highest percentage growth in property prices between 2013 and 2023. As we can see in @fig-top-10-suburbs, the top-performing suburb, Cardigan, witnessed a remarkable 489% growth, making it a prime candidate for investment. 
+
 
 
 ```{r include=FALSE}
@@ -149,6 +150,9 @@ print(growth_plot)
 
 
 ```
+
+
+
 The bar chart above highlights the suburbs leading in price appreciation in Melbourne over the past decade, with all experiencing remarkable increases of over 200%.
 
 At the forefront is **Cardigan**, with an impressive 489% growth, indicating soaring demand driven by development and enhanced amenities, attracting families seeking a community-oriented environment.
@@ -186,7 +190,7 @@ ggplot(house_data_long_top_10, aes(x = reorder(Locality, Price, FUN = median), y
   theme_bw()
 ```
 
-Each box in the plot represents the **interquartile range (IQR)** of house prices for a given suburb, highlighting the spread and central tendency of prices.The line within each box indicates the median price.
+Each box in the plot as shown @fig-top-10-volatility  represents the **interquartile range (IQR)** of house prices for a given suburb, highlighting the spread and central tendency of prices.The line within each box indicates the median price.
 
 **Connewarre** takes the lead in price fluctuations, with a price range spanning from approximately $1 million to nearly $2.5 million, indicating a highly dynamic housing market.
 
