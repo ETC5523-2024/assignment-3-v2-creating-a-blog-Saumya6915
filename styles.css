@@ -1,0 +1,38 @@
+/* CSS styles */
+.navbar-dark, .quarto-title-banner {
+  background-color: #023e60; /* Navbar background color */
+  padding: 10px; /* Add padding for spacing */
+}
+
+.navbar-dark a {
+  color: white; 
+  text-decoration: none; 
+}
+
+
+h1 {
+  color: #023e60;
+  font-size: 2.5em; 
+}
+
+h2, h3 {
+  color: #1b4774; 
+  margin-left: 10px;
+  font-size: 1.5em;
+  font-family: Arial, sans-serif;
+
+p {
+  margin: 10px 20px; 
+  line-height: 1.5; 
+}
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em; /* Responsive heading size */
+  }
+  
+  h2 {
+    font-size: 1.5em; /* Responsive subheading size */
+  }
+}
