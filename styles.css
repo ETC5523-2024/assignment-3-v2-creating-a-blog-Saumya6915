@@ -4,9 +4,15 @@
   padding: 10px; /* Add padding for spacing */
 }
 
+
 .navbar-dark a {
   color: white; 
   text-decoration: none; 
+}
+
+nav {
+  background-color: #9dabc9; /* Change the navbar color */
+  padding: 10px;
 }
 
 
@@ -26,13 +32,12 @@ p {
   line-height: 1.5; 
 }
 
-
 @media (max-width: 768px) {
   h1 {
-    font-size: 2em; /* Responsive heading size */
+    font-size: 2em; 
   }
   
   h2 {
-    font-size: 1.5em; /* Responsive subheading size */
+    font-size: 1.5em; 
   }
 }
