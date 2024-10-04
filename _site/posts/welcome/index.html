@@ -60,6 +60,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
@@ -75,11 +76,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -108,11 +109,42 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="style.css">
 </head>
 
-<body class="fullcontent">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">The Data Quest: Saumya’s Path to Discovery</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/Saumya6915"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
@@ -145,7 +177,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
@@ -249,9 +281,8 @@ Table&nbsp;1: Variables in the dataset
 <h2 class="anchored" data-anchor-id="understanding-the-dynamics">Understanding the Dynamics</h2>
 <p>Over the past decade, Melbourne’s property market has experienced significant fluctuations, with some suburbs witnessing rapid growth while others have remained more stable. Understanding these trends is crucial for investors, homeowners, and policymakers alike.</p>
 <p>By analyzing the growth of the top 10 suburbs through various plots, we can uncover which areas have experienced the most consistent growth and where opportunities may lie for future investment. Whether you’re a seasoned investor, looking to buy a house or simply curious about the market, this analysis will offer valuable insights into Melbourne’s ever-changing property landscape.</p>
-</section>
-<section id="analysis" class="level2">
-<h2 class="anchored" data-anchor-id="analysis">Analysis</h2>
+<section id="analysis" class="level3">
+<h3 class="anchored" data-anchor-id="analysis">Analysis</h3>
 <p>In this section, we focus on identifying the top-performing suburbs in Melbourne’s property market over the last decade, highlighting both the percentage growth in house prices and the volatility within the market.</p>
 <p>The bar chart below presents the suburbs with the highest percentage growth in property prices between 2013 and 2023. As we can see in <a href="#fig-top-10-suburbs" class="quarto-xref">Figure&nbsp;1</a>, the top-performing suburb, Cardigan, witnessed a remarkable 489% growth, making it a prime candidate for investment.</p>
 <div class="cell" data-tbl-cap="Top 10 Suburbs in Melbourne by Percentage Growth (2013-2023).">
@@ -391,16 +422,17 @@ Table&nbsp;2: Key Metrics Summary for Top 10 Suburbs
 </div>
 </div>
 </section>
-<section id="conclusion" class="level2">
-<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<section id="conclusion" class="level3">
+<h3 class="anchored" data-anchor-id="conclusion">Conclusion</h3>
 <p>The suburbs analyzed displayed a broad spectrum of both price volatility and percentage growth over the past decade. Suburbs like Cardigan and Marysville offer promising long-term investment potential, driven by their exceptional growth rates.For an overview of all the 10 suburbs, refer to <a href="#tbl-conclude" class="quarto-xref">Table&nbsp;2</a>. However, their volatility must be carefully considered, as it could signal fluctuations in future market conditions.</p>
 <p>This analysis underscores the importance of a balanced approach when making investment decisions in Melbourne’s housing market—one that considers both growth potential and the associated risks of price volatility.</p>
 <p><strong>For seasoned investors, these insights might signal where to allocate capital, while first-time buyers may want to be cautious about potential volatility in certain areas.</strong></p>
 <p>While these factors provide valuable insight, potential buyers may also want to consider factors such as interest rates, local development, and rental demand when assessing growth and volatility. Additionally, elements like local development plans, infrastructure improvements, and broader economic conditions should also be evaluated before finalizing investment choices.</p>
 </section>
+</section>
 <section id="reference" class="level2">
 <h2 class="anchored" data-anchor-id="reference">Reference</h2>
-<p>Property Update. (n.d.). The best suburbs to invest in Melbourne. Retrieved October 4, 2024, from - https://propertyupdate.com.au/the-best-suburbs-to-invest-in-melbourne/</p>
+<p>Property Update. (n.d.). The best suburbs to invest in Melbourne. Retrieved October 4, 2024, from - https://propertyupdate.com.au/the-best-suburbs-to-invest-in-melbourne/ or click <a href="https://propertyupdate.com.au/the-best-suburbs-to-invest-in-melbourne/">here</a></p>
 
 
 </section>

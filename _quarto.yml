@@ -4,14 +4,16 @@ project:
 website:
   title: "The Data Quest: Saumya’s Path to Discovery"
 
-navbar:
-    right:
-      - about.qmd
+  navbar:
+      background: "#023e60"
+      right:
+      - text: "About"
+        href: about.qmd
       - icon: github
         href: https://github.com/Saumya6915
 format:
   html:
-    theme: website
+    theme: null
     css: styles.css
 
 
