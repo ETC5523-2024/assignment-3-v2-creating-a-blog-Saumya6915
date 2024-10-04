@@ -2,3 +2,8 @@
 .navbar-dark, .quarto-title-banner {
   background-color: #006DAE;
 }
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
